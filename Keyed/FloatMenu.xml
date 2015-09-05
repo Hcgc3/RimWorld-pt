@@ -27,6 +27,11 @@
   <NoEmptyPlaceLower>sem sítio disponível configuradono para o guardar</NoEmptyPlaceLower>
   <AlreadyFilledLower>suficientemente cheio</AlreadyFilledLower>
   <MissingMaterials>precisa de materiais</MissingMaterials>
+  <MissingSkill>Habilidade baixa</MissingSkill>
+  <NoEmptyGraveLower>Nenhuma sepultura vazia configurada para armazená-lo(a) </NoEmptyGraveLower>
+  <AnimalInteractedTooRecently>Interação com animal muito recente</AnimalInteractedTooRecently>
+  <NoUsableFood>Nenhum alimento utilizavel</NoUsableFood>
+  <AnimalsSkillTooLow>Habilidade com animais muito baixa</AnimalsSkillTooLow>
 	
   <CannotGoNoPath>Não pode andar até aqui (sem caminho)</CannotGoNoPath>
   <GoHere>Andar até aqui</GoHere>
