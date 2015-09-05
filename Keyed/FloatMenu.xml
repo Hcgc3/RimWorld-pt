@@ -2,6 +2,7 @@
 <LanguageData>
 
   <CallOnRadio>Chamar {0}</CallOnRadio>
+  <CannotUseReason>Não é possivel usar ({0})</CannotUseReason>
   <CannotUseSolarFlare>Não é possível usar (erupção solar)</CannotUseSolarFlare>
   <CannotUseNoPower>Não é possível usar (sem electricidade)</CannotUseNoPower>
   <CannotUseNoPath>Não é possível usar (sem caminho)</CannotUseNoPath>
@@ -32,11 +33,15 @@
   <AnimalInteractedTooRecently>Interação com animal muito recente</AnimalInteractedTooRecently>
   <NoUsableFood>Nenhum alimento utilizavel</NoUsableFood>
   <AnimalsSkillTooLow>Habilidade com animais muito baixa</AnimalsSkillTooLow>
-	
+
+  <ConsumeThing>Consumir {0}</ConsumeThing>
+  <Teetotaler>abstêmio</Teetotaler>
+
   <CannotGoNoPath>Não pode andar até aqui (sem caminho)</CannotGoNoPath>
   <GoHere>Andar até aqui</GoHere>
   
   <Arrest>Prender {0}</Arrest>
+  <TryToArrest>Tentar prender {0}</TryToArrest>
   <CannotArrest>Não pode prender</CannotArrest>
 
   <Capture>Capturar {0}</Capture>
@@ -45,19 +50,25 @@
   <Rescue>Socorrer {0}</Rescue>
   <CannotRescue>Não pode socorrer</CannotRescue>
 
+  <CarryToCryptosleepCasket>Transportar {0} até à Capsula de criopreservação</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Não pode transportar até à Capsula de criopreservação</CannotCarryToCryptosleepCasket>
+
+  <NoCryptosleepCasket>Cryptosleep casket não disponivel.</NoCryptosleepCasket>
   <NoPrisonerBed>Nenhuma cama de prisioneiro disponível em sala fechada.</NoPrisonerBed>
   <NoNonPrisonerBed>Camas de não-prisioneiros não disponíveis.</NoNonPrisonerBed>
   <Reserved>Reservado por outra pessoa.</Reserved>
   <ReservedBy>Reservado por {0}.</ReservedBy>
   <IsReservedBy>{0} está reservado por {1}.</IsReservedBy>
 
-  <NoManipulationSkill>incapaz</NoManipulationSkill>
+  <Incapable>incapable</Incapable>
+  <IncapableOfCapacity>incapable of {0}</IncapableOfCapacity>
 
   <Equip>Equipar {0}</Equip>
   <EquipWarningBrawler>(lutador ficará infeliz)</EquipWarningBrawler>
   <CannotEquip>Não pode equipar {0}</CannotEquip>
   
   <Wear>Usar {0}</Wear>
+  <ForceWear>Obrigar a vestir {0}</ForceWear>
   <CannotWear>Não pode usar {0}</CannotWear>
   
   <Strip>Remover {0}</Strip>
@@ -66,6 +77,8 @@
   <Deposit>Depositar {0} no {1}</Deposit>
   <CannotDeposit>Não pode depositar {0} no {1}</CannotDeposit>
 
+  <SelfDestructHere>Auto-destruição aqui</SelfDestructHere>
+
   <Drop>Largar {0}</Drop>
   
   <UseMedicalBed>Descansar até estar completamente curado</UseMedicalBed>
@@ -73,12 +86,15 @@
   <SomeoneElseSleeping>Ocupado</SomeoneElseSleeping>
   
   <!-- Specific thing interactions -->
-  <EnterCryptosleepPod>Entrar na cápsula de crypto-sono</EnterCryptosleepPod>
+  <EnterCryptosleepPod>Entrar na Capsula de criopreservação</EnterCryptosleepPod>
+  <OpenCryptosleepCasket>Abrir Capsula de criopreservação </Op
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Não pode {0}: {1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotMissingHealthActivities>Não pode priorizar (incapaz de {0})</CannotMissingHealthActivities>
+    
   <CannotGenericAlreadyAm>Já {0}: {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>Não pode priorizar ({0} não é: {1})</CannotPrioritizeIsNotA>
